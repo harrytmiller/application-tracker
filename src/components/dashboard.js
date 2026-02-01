@@ -759,7 +759,7 @@ function Dashboard({ user }) {
                         padding: '12px 8px',
                         borderBottom: darkMode ? '1px solid #3d3d3d' : '1px solid #f0f0f0',
                         color: darkMode ? '#fff' : '#333'
-                      }}>{typeof item.percentOfPrevious === 'number' ? `${item.percentOfPrevious}%` : item.percentOfPrevious}</td>
+                      }}>{item.percentOfPrevious === '-' ? '-' : `${item.percentOfPrevious}%`}</td>
                     </tr>
                   ))}
                 </tbody>
