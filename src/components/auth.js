@@ -47,7 +47,7 @@ function Auth() {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      background: '#2d2d2d',
+      background: 'linear-gradient(135deg, #e0e0e0 0%, #f5f5f5 50%, #d0d0d0 100%)',
       padding: '20px'
     },
     authBox: {
