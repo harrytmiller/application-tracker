@@ -1103,7 +1103,7 @@ function Dashboard({ user }) {
                 fontWeight: '700',
                 marginBottom: '20px',
                 color: darkMode ? '#fff' : '#333'
-              }}>Filter Analytics by Date</h2>
+              }}>Filter Insights by Date</h2>
 
               <div style={{ marginBottom: '16px' }}>
                 <label style={{
